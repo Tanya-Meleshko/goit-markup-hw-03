@@ -1,0 +1,241 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --color-in-action: #2196F3;
+    --color-title: #212121;
+    --color-text: #757575;
+    --color-dark: #000000;
+    --color-light: #FFFFFF;
+    --background-darc: #2F303A;
+    --background-light: #F5F4FA;
+    --address-link: rgba(255, 255, 255, 0.6);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+font-family: var(--primary-font);
+color: var(--color-text);
+}
+
+/*==========================COMPONENTS====================*/
+
+.logo {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-in-action);
+}
+
+.logo-dark {
+    color: var(--color-dark);
+}
+
+.logo-light {
+color: var(--color-light);
+}
+
+/*==========================/COMPONENTS====================*/
+
+/*=============================HEADER=====================*/
+
+.page-header {
+    background: var(--color-light);
+}
+
+.navigation-link-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-title);
+}
+
+.navigation-link-item:hover,
+.navigation-link-item:focus {
+    color: var(--color-in-action);
+}
+
+.contact-link-header-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+}
+
+.contact-link-header-item:hover,
+.contact-link-header-item:focus {
+    color: var(--color-in-action);
+}
+
+.current {
+    color: var(--color-in-action);
+}
+
+/*=============================/HEADER=====================*/
+
+/*===============================HERO STUDIO======================*/
+
+.order {
+    background: var(--background-darc);
+}
+
+.order-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-light);
+}
+
+.modal-butten {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        color: var(--color-light);
+        background: var(--color-in-action);
+        cursor: pointer;
+}
+
+/*==============================/HERO STUDIO=======================*/
+
+/*=============================FEATURES=====================*/
+
+.features-title-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-title);
+}
+
+.features-text {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;     
+}
+
+/*=============================/FEATURES=====================*/
+
+/*=============================ACTIVITY=====================*/
+
+.activity-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: var(--color-title);
+}
+
+/*=============================/ACTIVITY=====================*/
+
+/*=============================OUR TEAM=====================*/
+
+.our-team {
+    background: var(--background-light);
+}
+
+.our-team-item {
+    background: var(--color-light);
+}
+
+.our-team-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: var(--color-title);
+}
+
+.our-team-name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--color-title);
+}
+
+.our-team-text {
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+/*=============================/OUR TEAM=====================*/
+
+/*==========================PORTFOLIO=================*/
+
+.service-list-button {
+        border: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--color-title);
+        background: var(--background-light);
+        cursor: pointer;
+}
+
+.service-list-button:hover,
+.service-list-button:focus {
+    color: var(--color-light);
+    background: var(--color-in-action);
+}
+
+.catalog-item {
+    background: var(--color-light);
+}
+
+.catalog-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--color-title);
+}
+
+.catalog-text {
+        font-size: 16px;
+        line-height: 1,87;
+        letter-spacing: 0.03em;
+}
+
+/*==========================/PORTFOLIO=================*/
+
+/*=============================FOOTER=====================*/
+
+.footer {
+    background: var(--background-darc);
+}
+
+.address-footer {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--color-light);
+}
+
+.address-link-item {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--address-link);
+}
+
+/*=============================/FOOTER=====================*/
