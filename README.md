@@ -1,2 +1,2 @@
-# goit-markup-hw-03.
+# goit-markup-hw-03
 Домашнее задание Модуль 3
