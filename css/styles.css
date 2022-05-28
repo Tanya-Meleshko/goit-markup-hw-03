@@ -42,6 +42,12 @@ font-family: var(--primary-font);
 color: var(--color-text);
 }
 
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-left: auto;
+}
+
 /*==========================COMPONENTS====================*/
 
 .logo {
