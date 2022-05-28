@@ -43,9 +43,11 @@ color: var(--color-text);
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
     margin-left: auto;
-    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /*==========================COMPONENTS====================*/
@@ -70,6 +72,26 @@ color: var(--color-light);
 /*==========================/COMPONENTS====================*/
 
 /*=============================HEADER=====================*/
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+}
+
+.contact-list-header {
+    display: flex;
+    align-items: center;
+}
 
 .page-header {
     background: var(--color-light);
