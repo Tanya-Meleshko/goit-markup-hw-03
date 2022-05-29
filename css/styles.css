@@ -191,16 +191,26 @@ color: var(--color-light);
         letter-spacing: 0.03em;     
 }
 
+.features {
+        padding-top: 94px;
+        padding-bottom: 94px;
+}
+
 /*=============================/FEATURES=====================*/
 
 /*=============================ACTIVITY=====================*/
 
 .activity-title {
-    font-weight: 700;
+        font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         color: var(--color-title);
+}
+
+.activity {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /*=============================/ACTIVITY=====================*/
@@ -209,6 +219,9 @@ color: var(--color-light);
 
 .our-team {
     background: var(--background-light);
+
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .our-team-item {
@@ -277,6 +290,11 @@ color: var(--color-light);
         font-size: 16px;
         line-height: 1,87;
         letter-spacing: 0.03em;
+}
+
+.catalog {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /*==========================/PORTFOLIO=================*/
