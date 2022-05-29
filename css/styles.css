@@ -166,6 +166,7 @@ color: var(--color-light);
     color: var(--color-light);
 
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .modal-butten {
@@ -180,6 +181,10 @@ color: var(--color-light);
         padding: 10px 32px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 /*==============================/HERO=======================*/
@@ -205,6 +210,13 @@ color: var(--color-light);
 
 .features-list {
     display: flex;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.features-list-item {
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 /*=============================/FEATURES=====================*/
@@ -219,10 +231,19 @@ color: var(--color-light);
         color: var(--color-title);
 
         margin-bottom: 50px;
+        text-align: center;
 }
 
 .activity-list {
     display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -50px;
+}
+
+.activity-image {
+    margin-left: 30px;
+    margin-top: 50px;
 }
 
 /*=============================/ACTIVITY=====================*/
@@ -245,6 +266,7 @@ color: var(--color-light);
         color: var(--color-title);
 
         margin-bottom: 50px;
+        text-align: center;
 }
 
 .our-team-name {
@@ -254,6 +276,8 @@ color: var(--color-light);
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--color-title);
+
+        margin-bottom: 10px;
 }
 
 .our-team-text {
@@ -261,10 +285,25 @@ color: var(--color-light);
         line-height: 1.19;
         text-align: center;
         letter-spacing: 0.03em;
+
+        padding-bottom: 30px;
 }
 
 .our-team-list {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.our-team-item:not(:nth-child(4n)) {
+    margin-right: 30px;
+}
+
+.our-team-item:not(:nth-last-child(-n+4)) {
+    margin-bottom: 30px;
+}
+
+.our-team-image {
+margin-bottom: 30px;
 }
 
 /*=============================/OUR TEAM=====================*/
@@ -297,6 +336,10 @@ color: var(--color-light);
     margin-bottom: 30px;
 }
 
+.catalog-item:not(:nth-child(3n)) {
+    margin-right: 8px;
+}
+
 .catalog-title {
         font-weight: 700;
         font-size: 18px;
@@ -317,11 +360,18 @@ color: var(--color-light);
 
 .service-list {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 50px;
+    justify-content: center;
+}
+
+.service-list-item:not(:last-child) {
+   margin-right: 8px;
 }
 
 .catalog-list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /*==========================/PORTFOLIO=================*/
