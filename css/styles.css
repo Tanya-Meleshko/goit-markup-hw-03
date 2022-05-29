@@ -232,6 +232,7 @@ color: var(--color-light);
         color: var(--color-title);
 
         margin-bottom: 50px;
+        padding-top: 0;
         text-align: center;
 }
 
