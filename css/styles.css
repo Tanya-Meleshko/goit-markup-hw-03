@@ -285,7 +285,6 @@ color: var(--color-light);
         letter-spacing: 0.03em;
         color: var(--color-title);
 
-        padding-top: 30px;
         margin-bottom: 10px;
 }
 
@@ -294,8 +293,6 @@ color: var(--color-light);
         line-height: 1.19;
         text-align: center;
         letter-spacing: 0.03em;
-
-        padding-bottom: 30px;
 }
 
 .our-team-list {
@@ -311,8 +308,8 @@ color: var(--color-light);
     margin-bottom: 30px;
 }
 
-.our-team-image {
-    margin-bottom: 30px;
+.our-team-bottom-part {
+    padding: 30px 61px 30px 62px;
 }
 
 /*=============================/OUR TEAM=====================*/
