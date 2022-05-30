@@ -99,7 +99,7 @@ color: var(--color-light);
     margin-left: auto;
 }
 
-.logo {
+.logo-header {
     margin-right: 90px;
 }
 
@@ -419,7 +419,7 @@ border-top: none;
         color: var(--address-link);
 }
 
-.logo {
+.logo-footer {
     margin-bottom: 20px;
 }
 
