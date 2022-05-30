@@ -110,6 +110,7 @@ color: var(--color-light);
 
 .page-header {
     background: var(--color-light);
+    border-bottom: 1px solid #ECECEC;
 
     padding-top: 32px;
     padding-bottom: 32px;   
