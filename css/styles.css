@@ -309,7 +309,8 @@ color: var(--color-light);
 }
 
 .our-team-bottom-part {
-    padding: 30px 61px 30px 62px;
+    padding-top: 30px;
+    padding-bottom: 30px
 }
 
 /*=============================/OUR TEAM=====================*/
