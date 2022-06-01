@@ -238,6 +238,10 @@ color: var(--color-light);
 /*=============================/FEATURES=====================*/
 
 /*=============================ACTIVITY=====================*/
+.activity {
+padding-top: 0;
+}
+
 
 .activity-title {
         font-weight: 700;
@@ -247,7 +251,6 @@ color: var(--color-light);
         color: var(--color-title);
 
         margin-bottom: 50px;
-        padding-top: 0;
         text-align: center;
 }
 
